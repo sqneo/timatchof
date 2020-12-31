@@ -12,7 +12,7 @@ export default function App() {
 
             <StatusBar style="light" backgroundColor='#000' />
 
-            {/* Texto foto */}
+            {/* Texto foto  testetetstetse*/}
             <Text style={{
                 fontSize: 18,
                 fontWeight: 'bold',
