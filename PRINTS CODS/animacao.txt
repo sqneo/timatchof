@@ -1,0 +1,1 @@
+<AnimatedIcon name='star' size={50} color={'#05c5ff'} animation='pulse' useNativeDriver duration={1000} iterationCount='infinite' />

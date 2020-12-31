@@ -1,0 +1,62 @@
+import { StatusBar } from 'expo-status-bar';
+import React from 'react';
+import { StyleSheet, Button, ActivityIndicator, Text, View, Image, TouchableOpacity } from 'react-native';
+import { TextInput } from 'react-native-gesture-handler';
+import { LinearGradient } from 'expo-linear-gradient';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+
+
+      {/* Area Branca */}
+      
+
+      <View style={{ backgroundColor: '#fff', 
+      width: '100%', 
+      height: '100%', 
+      borderTopLeftRadius: 0, 
+      alignItems: 'center' }}>
+
+        {/* Email */}
+        <View style={{ width: '80%', 
+        height: 50, backgroundColor: '#fff', 
+        elevation: 8, borderRadius: 25, 
+        marginTop: 100 }}>
+        </View>
+
+        {/* Senha */}
+        <View style={{ width: '80%', 
+        height: 50, 
+        backgroundColor: '#fff', 
+        elevation: 8, 
+        borderRadius: 25, 
+        marginTop: 30 }}>
+         </View>
+
+        {/* Entrar */}
+        <TouchableOpacity style={{ width: 100, 
+          height: 40, 
+          backgroundColor: '#58b4d9', 
+          borderRadius: 15, 
+          marginTop: 50, 
+          alignItems: 'center', 
+          justifyContent: 'center' }}>
+          <Text style={{ color: '#fff', fontWeight: 'bold' }}>Entrar</Text>
+
+        </TouchableOpacity>
+
+      </View>
+
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    width: "100%",
+    height: "100%",
+    backgroundColor: '#58b4d9',
+  },
+
+});
